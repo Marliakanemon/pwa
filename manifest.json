@@ -1,0 +1,12 @@
+{
+    "name": "MARFA DBA ORACLE",
+    "short_name": "MARFA DBA",
+    "description": "En MARFA DBA ORACLE encontraras diferentes materiales para ser un administrador de base de datos Oracle",
+    "background_color": "#FFF",
+    "theme_color": "#FFF",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html",
+    "scope": "./",
+    "lang": "es-ES"
+}

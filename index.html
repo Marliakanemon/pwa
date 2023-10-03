@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA: Marvin Bernal</title>
+    <!--Viewport Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="img/oracle.png" />
+    
+    <!--PWA-->
+    <!--Color de la app-->
+    <meta name="theme-color" content="#FFFFFF"/>
+
+    <!--Optimización Móvil-->
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+
+    <!--Meta etiquetas PWA para APPLE-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <link rel="apple-touch-icon" href="img/oracle.png" />
+    <link rel="apple-touch-startup-image" href="img/oracle.png" />
+
+    <!--Configuracion general PWA-->
+    <link rel="manifest" href="manifest.json"/>
+
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>Marfa BDA ORACLE</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#main-header">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            Servicios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ¿Quiénes Somos?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            Contactos
+                        </a>
+                    </li>
+                <li>
+                        <a href="#cursos">
+                            Cursos
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- end menu-->
+        </div> <!-- end container-->
+        <div class="clearfix"></div>
+    </header>
+    <div id="slider">
+        <div class="container">
+            <h2>Administración de bases de datos ORACLE</h2>
+        </div>
+        <div class="contador-contenedor">
+            <p>Visitas <span id="contador" class="contador-estilo"></span></p>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+        <h2 class="subheader">Servicios</h2>
+        <div class="service">
+            <img src="img/1.png" />
+            <h3>Begin as DBA</h3>
+            <p>
+                Excelente opción para los estudiantes que recién comienzan su carrera de DBA
+            </p>
+        </div>
+        <div class="service">
+            <img src="img/2.png" />
+            <h3>Installing and Upgrade</h3>
+            <p>
+                Instalar y configurar el software de base de datos Oracle en servidores y sistemas apropiados.
+            </p>
+        </div>
+        <div class="service">
+            <img src="img/3.png" />
+            <h3>Administration</h3>
+            <p>
+                Monitoreo del rendimiento de la base de datos y ajustan parámetros para garantizar que las consultas 
+                y transacciones se ejecuten de manera eficiente.
+            </p>
+        </div>
+    </div> <!-- end container-->
+    </div> <!-- end servicios-->
+
+    <div class="clearfix">
+
+    </div>
+
+
+    <div id="cursos">
+        <div class="container">
+            <h2 class="subheader">Cursos</h2>
+            <div class="course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X1N2vnSaVxk?si=LBmqnuare3Q0CuJZ" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                <p>Oracle Database Administration Workshop Guide
+                   Finally the most awaited 21c is available for download on Linux flatform.
+                </p>
+            </div>
+            <div class="course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nfObN2nhfo4?si=TzhEu2zZesJmhoTv" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>12c Architecture - 12c Multitenant Architecture - CDB & PDB Implementation - 12c Container Database</p>
+            </div>
+            <div class="course">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5dYGhK2MqOk?si=s5U0HGTV7SsMWfJ-" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Performance Tuning and Troubleshooting in Oracle || SQL tuning & Database Performance Tuning</p>
+            </div>
+        </div>
+    </div> <!-- end cursos-->
+
+    <div class="clearfix">
+        
+    </div>
+
+    <div id="comentarios">
+        <div class="container">
+        <h2 class="subheader">Comentarios</h2>
+        <div class="service">
+            <h3>Principales dificultades a las que se enfrentaron al momento de codificar la PWA nativa</h3>
+            <p>
+                Uno de los mayores desafíos es garantizar que la PWA funcione de manera coherente en diferentes navegadores y 
+                sistemas operativos. Cada navegador puede tener implementaciones ligeramente diferentes de las tecnologías web estándar,
+                lo que puede requerir ajustes y pruebas exhaustivas.
+                Asegurar una experiencia de usuario intuitiva y fluida es un desafío constante. Las PWA deben ser fáciles de usar 
+                en diferentes dispositivos y tamaños de pantalla, lo que requiere un diseño y una usabilidad cuidadosos.
+            </p>
+        </div>
+        <div class="service">
+            <h3>¿Creen que es una opción válida crear siempre el sitio o aplicación web de manera progresiva?</h3>
+            <p>
+                El enfoque progresivo se basa en construir una experiencia web que se adapte a las capacidades del dispositivo y 
+                del navegador del usuario, lo que significa que la experiencia es óptima en una amplia variedad de situaciones. 
+                Accesibilidad multiplataforma, mi sitio o aplicación web funcione en una variedad de dispositivos, 
+                incluidos computadoras de escritorio, tabletas y teléfonos móviles, sin requerir múltiples versiones separadas. 
+                Facilita la escalabilidad: Cuando se agrega contenido o funcionalidad adicional a mi sitio o aplicación, 
+                un enfoque progresivo facilita la expansión sin requerir una reconstrucción completa.
+            </p>
+        </div>
+    </div> <!-- end container-->
+    </div> <!-- end comentarios-->
+
+    <div class="clearfix">
+
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <h2 class="subheader">Contacto</h2>
+            <p>Contáctame o enviame un mensaje en cualquiera de estas redes sociales</p>
+            <ul id="networks">
+                <li>
+                    <a href="">
+                        <img src="img/twitter.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/facebook.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/instagram.png">
+                    </a>
+                </li>
+            </ul>
+            <div class="clearfix">
+        
+            </div>
+        </div>
+    </footer>
+    <!--Contador de visitas-->
+    <script src="./js/conta.js"></script>
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
